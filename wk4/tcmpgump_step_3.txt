@@ -1,0 +1,27 @@
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+15:45:20.066606 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.106.49154: Flags [P.], seq 91938501:91938609, ack 1610424624, win 501, options [nop,nop,TS val 833256045 ecr 2630296462], length 108
+E.....@.@......;.`Uj.....z.._.!0.....c.....
+1.zm..#..e_t.]....8."...k...w`.Se..l5e|..`.p!....s..{Ea.....(........*.]4.0....._7B5.}pj.......D...8..M.`G.s./'h9.&.
+15:45:20.066689 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.106.49154: Flags [P.], seq 108:144, ack 1, win 501, options [nop,nop,TS val 833256045 ecr 2630296462], length 36
+E..X..@.@..4...;.`Uj.....z.1_.!0...........
+1.zm..#.. ;>.=.{..d.!.l+...."...&D......._..
+15:45:20.066741 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.106.49154: Flags [P.], seq 144:196, ack 1, win 501, options [nop,nop,TS val 833256045 ecr 2630296462], length 52
+E..h..@.@..#...;.`Uj.....z.U_.!0.....+.....
+1.zm..#.4"o..6...O.6.Kb.0..mX.x#.>....VR.y.i.j......>E..[.0.
+15:45:20.066876 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.106.49154: Flags [P.], seq 196:368, ack 1, win 501, options [nop,nop,TS val 833256046 ecr 2630296462], length 172
+E.....@.@......;.`Uj.....z.._.!0...........
+1.zn..#.V. Y.Z{........=.+.x.X......U.......U........>..V..1.;.|9E.>M.........).4h1...k.Q.+.[.....>..........O.O	H!P(<.|.....$..JH.U.=`..d@a.k.j.E.sQQ<.!..I.'...E.....7....*ishl.P.
+15:45:20.067980 IP 198.96.85.106.49154 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 0, win 2046, options [nop,nop,TS val 2630296480 ecr 833256042], length 0
+EH.4..@.8.l..`Uj...;...._.!0.z.............
+..#.1.zj
+15:45:20.073275 IP 198.96.85.106.49154 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 368, win 2042, options [nop,nop,TS val 2630296485 ecr 833256046], length 0
+EH.4..@.8.l..`Uj...;...._.!0.z.5.....w.....
+..#.1.zn
+^C15:45:20.165892 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.33776 > 67.207.67.2.domain: 56742+ [1au] PTR? 106.85.96.198.in-addr.arpa. (55)
+E..S....@.y....;C.C....5.?A(.............106.85.96.198.in-addr.arpa.......)........
+
+7 packets captured
+32 packets received by filter
+0 packets dropped by kernel
+
