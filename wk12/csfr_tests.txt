@@ -1,0 +1,7 @@
+Before mitigation:
+- A forged request from an external source successfully logs in without user interaction.
+
+After mitigation:
+- Without a valid CSRF token, login requests are rejected.
+- Only users who load the login form directly can submit valid requests.
+

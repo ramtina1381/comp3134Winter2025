@@ -1,0 +1,4 @@
+The stored XSS attack allows JavaScript to execute automatically when loading the page.
+Any stored malicious script will execute whenever a user visits the page.
+
+
