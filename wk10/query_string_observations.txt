@@ -1,0 +1,24 @@
+1.)Navigate to the form and type a valid English word. Write your observations.
+
+Upon typing 'apple' in the search bar and pressing Enter, the website displays the dictionary definition of the word, including information on its meaning, pronunciation, and usage."
+
+
+
+2) Navigate to the URL and type an invalid English word after the `/browse/` section of the
+URL. Write your observations
+
+https://www.dictionary.com/browse/qwertyuiop
+
+Upon typing 'qwertyuiop' in the URL after '/browse/', the site displays a 'No results found' message, suggesting that the word does not exist in the dictionary.
+
+
+
+3) Navigate to the form and type the following text: <script>alert(%27hello%27)</script>
+Write your observations.
+
+When typing <script>alert('hello')</script> in the form, the website displays the text as is, and does not execute the script. The script is sanitized, and no alert box appears
+
+
+4) Navigate to the URL and type the following text: <script>alert(%27hello%27)</script>
+after the `term=` section of the URL. Write your observations.
+Upon adding <script>alert('hello')</script> after term=, the website does not execute the script. It displays the string as normal text, with the script being escaped and not executed.

@@ -1,0 +1,16 @@
+strip_tags() vs htmlspecialchars()
+
+1. strip_tags():
+- This function removes all HTML and PHP tags from the user input.
+- It is useful for filtering out unwanted HTML elements, especially in cases where the content should not contain any HTML.
+- It does not provide protection against special characters like '<', '>', etc. (e.g., <script> tags).
+
+2. htmlspecialchars():
+- This function converts special characters into HTML entities (e.g., '<' becomes '&lt;').
+- It is more appropriate when you want to prevent XSS attacks while still allowing the user to input HTML special characters safely (without being interpreted as code).
+- It doesn't remove HTML tags but ensures that they are treated as plain text.
+
+In summary:
+- `strip_tags()` strips out all HTML tags.
+- `htmlspecialchars()` encodes special characters, preventing HTML tags from being executed.
+
