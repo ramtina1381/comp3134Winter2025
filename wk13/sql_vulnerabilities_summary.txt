@@ -1,0 +1,11 @@
+1) Using the page getusers_1.php, typing "Ben":
+- Expected: A list of users with the first name "Ben" and active status as 1.
+- Actual: [Explain what happened. Did it return the expected results?]
+
+2) Using the page getusers_1.php, typing "Ben'--":
+- Expected: The SQL query should be malformed, possibly causing an error or returning unexpected results.
+- Actual: [Explain what happened. Did it allow you to bypass the query?]
+
+3) Using the page getusers_1.php, typing "Ben' or 1=1":
+- Expected: The SQL query would return all users because "1=1" is always true.
+- Actual: [Explain what happened. Did the SQL injection succeed?]
